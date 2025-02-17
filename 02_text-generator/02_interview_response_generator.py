@@ -1,3 +1,6 @@
+'''
+This example is more like a guided one as compare to previos one. 
+'''
 from transformers import pipeline
 
 text_gen_pipe = pipeline(task='text-generation', model='distilgpt2')
